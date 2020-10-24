@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class WriteSymptomsDataOnFile {
 		/**
-		* Write in result.out
+		* Write the count of each symptom in result.out
 		* @param map with symptoms
 		* @return "result.out"
 		*/
