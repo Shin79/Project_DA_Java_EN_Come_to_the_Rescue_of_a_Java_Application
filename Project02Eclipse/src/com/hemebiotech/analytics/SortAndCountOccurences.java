@@ -7,7 +7,7 @@ import java.util.Collections;
 
 public class SortAndCountOccurences {
 	/**
-	 * Count occurences of each symptom
+	 * Sort and count occurences of each symptom
 	 * @param list of symptoms
 	 * @return map of symptoms/occurences
 	 */
