@@ -9,6 +9,7 @@ public class WriteSymptomsDataOnFile {
 		* Write the count of each symptom in result.out
 		* @param map with symptoms
 		* @return "result.out"
+		* @throws IOException / Catches exception if error in Input/Output
 		*/
 		public void writeSymptoms(Map<String,Integer> mapSymptoms) throws IOException{
 			
@@ -18,7 +19,8 @@ public class WriteSymptomsDataOnFile {
 				for(Map.Entry<String,Integer> m : mapSymptoms.entrySet()) {
 					try {
 						writer.write(m.getKey() + " : " + m.getValue() + "\n");
-					} catch(IOException e) {
+					} 
+					catch(IOException e) {
 						e.printStackTrace();
 					}
 				}

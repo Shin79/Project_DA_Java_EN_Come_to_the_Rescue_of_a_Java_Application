@@ -13,6 +13,7 @@ import java.util.TreeMap;
 
 /**
  * Simple brute force implementation
+ * 
  *
  */
 public class ReadSymptomDataFromFile implements ISymptomReader {
