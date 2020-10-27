@@ -16,7 +16,6 @@ public class SortAndCountOccurences {
 		Map<String,Integer> map = new TreeMap<>();
 		
 		if (symptoms != null && !symptoms.isEmpty()) {
-			Collections.sort(symptoms);
 			
 			for (String symptom : symptoms) {
 				map.put(symptom, map.containsKey(symptom) ? map.get(symptom) + 1 : 1);
